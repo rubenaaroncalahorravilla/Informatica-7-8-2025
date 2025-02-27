@@ -1,5 +1,7 @@
 body {
     font: 1.2em / 1.5 sans-serif;
+    min-height: 200vh;
+    max-width: 600px;
   }
   * {
     box-sizing: border-box;
@@ -18,9 +20,25 @@ body {
     padding: 1em;
     color: white;
   }
-  .container {
-  }
+
   
-  .target {
-  }
-  
+.container-2 {
+    padding: 0.5em;
+    border: 5px solid #ccc;
+    overflow: auto;
+}
+
+.sidebar {
+    color: white;
+    background-color: #663398;
+    padding: 1em;
+    float: left;
+    width: 150px;
+}
+
+.content {
+    padding: 1em;
+    margin-left: 160px;
+}
+
+
