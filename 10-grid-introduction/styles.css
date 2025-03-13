@@ -1,7 +1,7 @@
 body {
     font: sans-serif;
   }
-  .container > div {
+  .child {
     border-radius: 5px;
     padding: 10px;
     background-color: rgb(207 232 220);
